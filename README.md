@@ -1,7 +1,7 @@
 # N.A.G.E.K.I.
 
 ## A cheap，simple，Ongeki controller Use Keyboard Simulation and Mouse Simulation to controller the ongeki game. Using Pro-micro control.
-## [中文版介绍 Chinese version](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/README_CN.md)
+## [中文版介绍 Chinese version](https://github.com/Nana0Nana/NAGEKI/blob/main/README_CN.md)
 
 # Befor download
 
