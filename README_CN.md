@@ -16,6 +16,13 @@
 
 ## 我已经在pcb上注明了端口，你只需要用杜邦线或其他导线连接。
 
+# 新PCB
+
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0%20B.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0.png?raw=true)
+
+## 请勿使用目前这张PCB，因为我并没有对此张PCB做相应的测试以及程序便携，除非你认为自己有能力编写新的程序！
+
 
 
 # 对于控制器外壳
