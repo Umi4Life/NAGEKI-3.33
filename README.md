@@ -12,13 +12,15 @@
 
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/pcb.png?raw=true)
 
+## I already ping the ports out so you just need connect them.
+
 # Let me show you some thing new :)
 ## (please dont use this PCB file now because I didnt write code for this PCB,the port were different.)
 
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0%20B.png?raw=true)
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0.png?raw=true)
 
-## I already ping the ports out so you just need connect them.
+
 
 
 # For main.
