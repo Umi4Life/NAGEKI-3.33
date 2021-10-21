@@ -11,6 +11,9 @@
 ## you need print the PCB and you need a Promicro to control.
 
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/pcb.png?raw=true)
+Let me show you some thing new :)
+![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/PCB 2.0.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/PCB 2.0 B?raw=true)
 
 ## I already ping the ports out so you just need connect them.
 
