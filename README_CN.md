@@ -21,7 +21,7 @@
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0%20B.png?raw=true)
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0.png?raw=true)
 
-## 请勿使用目前这张PCB，因为我并没有对此张PCB做相应的测试以及程序便携，除非你认为自己有能力编写新的程序！
+## 推荐使用这张新PCB，我已经重新撰写了程序，并可以使用旋转电位器
 
 
 
