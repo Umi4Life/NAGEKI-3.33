@@ -2,6 +2,8 @@
 # N.A.G.E.K.I.
 
 ## 一个低成本，简单制作的Ongeki控制器，使用arduino Promicro开发。
+## 项目介绍页！仅中文！
+## https://nananana.net/nageki/
 
 
 # 在你查看库之前
