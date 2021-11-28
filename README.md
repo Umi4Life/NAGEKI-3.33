@@ -39,6 +39,8 @@ you need 60x60mm button.
 for menu button,I get 50x50mm hole,same,that hold will a bit large than the button size,so you need the Acrylic board.
 you nedd 44x44mm button
 
+## NAGEKI 2.0 NEED 33x33mm button！！！
+
 for side button,I use the 100x100mm button,thats the cheap and easy way to solve the side button problem.
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/IMG_8376.PNG?raw=true)
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/IMG_8377.PNG?raw=true)
