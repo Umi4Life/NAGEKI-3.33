@@ -7,6 +7,8 @@
 #include "Mouse.h"
 #include <Adafruit_NeoPixel.h>
 
+
+
 /*WS2812*/
 
 /*Pot*/
@@ -67,44 +69,44 @@ void setup() {
 
 void Keys(){
    if (digitalRead(buttonPin1) == LOW){ //按键1/Key1
-    Keyboard.press('J');
-   }
-   else {
-    Keyboard.release('J');
-}
-
-   if (digitalRead(buttonPin2) == LOW){ //按键2/Key2
-    Keyboard.press('K');
-   }
-   else {
-    Keyboard.release('K');
-}
-
-   if (digitalRead(buttonPin3) == LOW){ //按键3/Key3
-    Keyboard.press('L');
-   }
-   else {
-    Keyboard.release('L');
-}
-if (digitalRead(buttonPin4) == LOW){ //按键4/Key 4
     Keyboard.press('A');
    }
    else {
     Keyboard.release('A');
 }
 
-   if (digitalRead(buttonPin5) == LOW){ //按键5/Key 5
+   if (digitalRead(buttonPin2) == LOW){ //按键2/Key2
     Keyboard.press('S');
    }
    else {
     Keyboard.release('S');
 }
 
-   if (digitalRead(buttonPin6) == LOW){ //按键6/Key 6
+   if (digitalRead(buttonPin3) == LOW){ //按键3/Key3
     Keyboard.press('D');
    }
    else {
     Keyboard.release('D');
+}
+if (digitalRead(buttonPin4) == LOW){ //按键4/Key 4
+    Keyboard.press('J');
+   }
+   else {
+    Keyboard.release('J');
+}
+
+   if (digitalRead(buttonPin5) == LOW){ //按键5/Key 5
+    Keyboard.press('K');
+   }
+   else {
+    Keyboard.release('K');
+}
+
+   if (digitalRead(buttonPin6) == LOW){ //按键6/Key 6
+    Keyboard.press('L');
+   }
+   else {
+    Keyboard.release('L');
 }
 }
 void Function(){
@@ -121,7 +123,8 @@ void Function(){
     Keyboard.release('U');
 }
 }
-void Side(){
+void Side()
+{
     if (digitalRead(SideL) == LOW){ //侧键1/Side 1
     Keyboard.press('P');
    }
@@ -135,6 +138,14 @@ void Side(){
     Keyboard.release('Q');
 }
 }
+void Card(){
+    if (digitalRead(FunctionL) == LOW && digitalRead(FunctionR) == LOW){ //回车键刷卡/hold Enter to load card
+    Keyboard.press(0xB0);
+   }
+   else {
+    Keyboard.release(0xB0);
+}
+}
 void encFuncLeft(){
   updateMousePositionLeft();
 }
@@ -144,7 +155,7 @@ void updateMousePositionLeft()
   static int prev_value = 0;
   int a;
   a = encLeft.read();
-  Mouse.move((prev_value - a) * 2, 0, 0);
+  Mouse.move((prev_value - a), 0, 0);
   prev_value = a;
 }
 
@@ -165,23 +176,24 @@ void lever()
       }
     }
 
-void move()
 
+void move()
 {
   static int prev_value = 0;
   a = newdata;
-  Mouse.move((prev_value - a) * 2, 0, 0);
+  Mouse.move((prev_value - a), 0, 0);
   prev_value = a;
   
 }
+
 
 void loop()
   {
   Keys();
   Function();
   Side();
+  Card();
   encFuncLeft();
   updateMousePositionLeft();
-  lever();
   move();
   }
