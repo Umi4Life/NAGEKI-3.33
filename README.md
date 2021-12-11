@@ -10,8 +10,8 @@
 ## FOR All the blueprint,I __didnt__ do the Screw holes, so thats mean you need use drill to creat a hold for screw,I use M3x25 screw to fix all the part.
 
 # First
-## you need print the PCB and you need a Promicro to control.
-
+##  you need print the PCB and you need a Promicro to control.
+## Promicro mini cant be used on this project!
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/pcb.png?raw=true)
 
 ## I already ping the ports out so you just need connect them.
