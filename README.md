@@ -6,7 +6,7 @@
 ## 中文用户可以点击最上面的Introduction，里面详细的说明了安装步骤以及注意事项
 
 # Befor download
-
+# Please Download the New Release at the right part,DO NOT DOWNLOAD THE SOURCE CODE!
 ## FOR All the blueprint,I __didnt__ do the Screw holes, so thats mean you need use drill to creat a hold for screw,I use M3x25 screw to fix all the part.
 
 # First
