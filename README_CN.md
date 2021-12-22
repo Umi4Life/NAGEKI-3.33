@@ -7,39 +7,30 @@
 
 
 # 在你查看库之前
+## 请务必在右侧Release下载最新发布的NAGEKI项
 
-## 所有的图纸，我 __并没有__ 做螺丝孔的开孔设计，这意味着你需要一台手持钻并自行打孔，我使用了M3x25的螺丝去固定各个部位。
+所有的图纸，我 __并没有__ 做螺丝孔的开孔设计，这意味着你需要一台手持钻并自行打孔，我使用了M3x25的螺丝去固定各个部位。
 
 
 # 首先
 ## 你需要打印我提供的PCB，与一块promicro开发板
 
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/pcb.png?raw=true)
-
 ## 我已经在pcb上注明了端口，你只需要用杜邦线或其他导线连接。
-
-# 新PCB
 
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0%20B.png?raw=true)
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0.png?raw=true)
-
-## 推荐使用这张新PCB，我已经重新撰写了程序，并可以使用旋转电位器
 
 
 
 # 对于控制器外壳
 
-我推荐你使用15或20mm的密度板组装，经测试强度可靠。
+我推荐你使用15或20mm的密度板组装
+对于9mm密度板，经测试强度可靠
+您可以搜索店铺 多美歌广告 采购NAGEKI需要的所有结构框架，价格为189元包邮。
 
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/main.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/main.png?raw=true)
 
 ## 一些细节
-
-对于控制器的6个按键，我在图纸上创建了67x67mm的孔洞，但这比你所购买的按钮尺寸大了许多，所以你需要我提供的表层亚克力图纸覆盖在台面上。
-你需要在淘宝购买60x60mm方形按键
-
-对于控制器的两个menu键，我创建了50x50mm的孔洞，这个洞同样比你购买的按钮尺寸大了许多，所以你必须使用亚克力来修复这个问题。
-你需要在淘宝购买44x44mm方形按键
 
 关于控制器的两个侧键，我使用了100x100的按钮，这是我能找到最简单也是最便宜的方法来解决侧键问题。
 
@@ -58,21 +49,16 @@
 
 我推荐你使用UV打印的亚克力，这样更美观，你也可以使用透明亚克力，价格更加实惠，我使用了2mm厚度的亚克力。
 
-## !!! 请注意 !!!
+你可以提供这张图片给UV打印厂家
 
-你必须购入一张亚克力，并按照我提供的亚克力图纸制作，否则你的按键将无法固定在台面上！！！！！！！！
-
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/QQ%E6%88%AA%E5%9B%BE20211012202125.png?raw=true)
-
-你也可以提供这张图片给UV打印厂家
-
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/surface%20print.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/skin/NAGEKI%202.1%20UV%20BRIGHT%202.png?raw=true)
 
 
 # 完成了上面的所有事项，你已经得到了一个ongeki控制器外壳。
 
 
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/IMG_8332.JPG?raw=true)
+↑这是1.0手台的结构图片，与最新版有出入。
 
 
 # 在你组装好外壳后，只需要焊接好pcb与promicro然后上传我已经写好的程序。
