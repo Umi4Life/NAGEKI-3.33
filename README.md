@@ -12,24 +12,19 @@
 # First
 ##  you need print the PCB and you need a Promicro to control.
 ## Promicro mini cant be used on this project!
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/pcb.png?raw=true)
-
 ## I already ping the ports out so you just need connect them.
-
-# Let me show you some thing new :)
 ## (Now you can use this brand new PCB,thats better than after and it have 4 more pin you can use for Pot and lights.)
-
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0%20B.png?raw=true)
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/PCB%202.0.png?raw=true)
-
 
 
 
 # For main.
 
 I recommend you use the 15 or 20mm Density wood board
+### You Also can use 9mm Density wood board now,I already test for it:)
 
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/main.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/main.png?raw=true)
 
 ## details
 
@@ -57,21 +52,16 @@ I recommend you use the UV print on the surface,I used 2mm thickness board.
 
 Also,you can just use the Acrylic board on surface.
 
-## !!! Important !!!
-
-you must have the surface board,because the main board size will a bit larger than the button you got! you need surface board to fix that!!!
-
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/QQ%E6%88%AA%E5%9B%BE20211012202125.png?raw=true)
-
 and you can use UV print with this pic.
 
-![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/surface%20print.png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/NAGEKI%202.1%20UV%20BRIGHT%202.png?raw=true)
 
 
 # Afer everything,you will get a complete NAGEKI controller.
 
 
 ![alt pic](https://github.com/Nana0Nana/N.A.G.E.K.I./blob/main/pic/IMG_8332.JPG?raw=true)
+↑ This picture is for ver 1.0 ,ver 2.0 have a lot change here.
 
 
 # When you ready for the frame,just use the arudio write the code(i already post it)
