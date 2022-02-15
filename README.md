@@ -69,4 +69,4 @@ and you can use UV print with this pic.
 # ENJOY YOUR ONGEKI GAME :)
 
 # ！！！attention！！！
-# Im not the professional person for design and codeing,all the idea or design just form my hobby,and I never learn the pcb writing or the CAD drawing.SO the project 100% will have alot of problem,So if you find some problem or you can help me build the project better,pls email me at 2391626794@qq.com  or  Nya@nananana.net.
+# Im not the professional person for design and codeing,all the idea or design just form my hobby,and I never learn the pcb writing or the CAD drawing.SO the project 100% will have alot of problem,So if you find some problem or you can help me build the project better,pls email me at 2391626794@qq.com  or  nana.nyabox@gmail.com
