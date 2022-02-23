@@ -4,6 +4,7 @@
 ## A cheap，simple，Ongeki controller Use Keyboard Simulation and Mouse Simulation to controller the ongeki game. Using Pro-micro control.
 ## [中文版介绍 Chinese version](https://github.com/Nana0Nana/NAGEKI/blob/main/README_CN.md)
 ## 中文用户可以点击最上面的Introduction，里面详细的说明了安装步骤以及注意事项
+# [请我喝杯奶茶](https://afdian.net/@Nana0Nana)
 
 # Befor download
 # Please Download the New Release at the right part,DO NOT DOWNLOAD THE SOURCE CODE!
