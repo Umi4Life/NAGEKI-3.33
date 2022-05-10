@@ -1,6 +1,9 @@
 # N.A.G.E.K.I.
 # [Introduction website](https://nananana.net/nageki-en/)
 
+
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/NAGEKI%203.png)
+
 ## A cheap，simple，Ongeki controller Use Keyboard Simulation and Mouse Simulation to controller the ongeki game. Using Pro-micro control.
 ## [中文版介绍 Chinese version](https://github.com/Nana0Nana/NAGEKI/blob/main/README_CN.md)
 ## 中文用户可以点击最上面的Introduction，里面详细的说明了安装步骤以及注意事项
