@@ -1,6 +1,7 @@
 # N.A.G.E.K.I.
 # [Introduction website](https://nananana.net/nageki-en/)
 
+# IM REBUILDING THIS PROJECT,ALL THE WORKS ALREADY DONE AND WAITING FOR UPLOAD.
 
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/NAGEKI%203.png)
 
