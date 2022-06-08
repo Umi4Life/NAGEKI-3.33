@@ -6,4 +6,4 @@
 
 # New UV pattern 
 
-![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/NAGEKI%20%3.0/UV%20%20220426 .png?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/NAGEKI%203.0/UV%2020220426%20.png?raw=true?raw=true)
