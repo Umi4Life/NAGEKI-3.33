@@ -30,5 +30,5 @@ Official:
 ![alt pic](https://lh3.googleusercontent.com/pw/AM-JKLVhYo-QsOyu-vL1Y9sjPr-EyaKC3vLjsHrvYfkyICfCFt7lcwXTQYio1GbFHpUz2ioEy-YFpVHfmG5LU9lURMiAGyRInCe1NAaauHiBlYaPZlLhYueOChrw7YDaS3ev6DoSO-kdWvCysoPUvEmAqeuaSA=w997-h1329-no?authuser=0?raw=true?raw=true?raw=true?raw=true)
 
 Nageki:
-![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/leverd.png?raw=true?raw=true?raw=true?raw=true)
+![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/leverd.jpg?raw=true?raw=true?raw=true?raw=true?raw=true)
 confidential :)
