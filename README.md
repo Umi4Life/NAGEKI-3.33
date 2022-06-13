@@ -3,6 +3,8 @@
 
 # IM REBUILDING THIS PROJECT,ALL THE WORKS ALREADY DONE AND WAITING FOR UPLOAD.
 
+# [NAGEKI 3.0](https://github.com/Nana0Nana/NAGEKI/tree/main/NAGEKI%203.0)
+
 ![alt pic](https://github.com/Nana0Nana/NAGEKI/blob/main/pic/NAGEKI%203.png)
 
 ## A cheap，simple，Ongeki controller Use Keyboard Simulation and Mouse Simulation to controller the ongeki game. Using Pro-micro control.
