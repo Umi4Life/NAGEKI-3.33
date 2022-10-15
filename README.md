@@ -4,14 +4,14 @@ A full size Ongeki controller
 ![real-life](pic/real-life.jpg)
 
 # General Requirements
- - Access to 3d printer
+ - Access to 3d printer and good 3d printing knowledge
  - Soldering tool
- - x4~5 PLA filament, the brand I used is eSUN PLA+
+ - x4~5 filaments, the brand I used is eSUN PLA+
  - 22~26 AWG wires
  - Crimping tool
  - Access to laser cutter & poster printer & sticker printer
  - Some CAD knowledge
- - Some arduino coding knowledge
+ - Some Arduino coding knowledge
  - Ability to DIY stuff up if things doesn't go your way
 
 # Additional resources
@@ -22,8 +22,8 @@ A full size Ongeki controller
 1. [Lever](#lever)
 2. [WAD](#wad)
 3. [Case](#case)
-4. [Buttons and PCB](#buttons-and-pcb)
-5. [Graphics](#graphics)
+4. [Graphics](#graphics)
+5. [Buttons and PCB](#buttons-and-pcb)
 6. [Firmwares](#firmwares)
 
 ## Lever
@@ -45,13 +45,15 @@ A full size Ongeki controller
 If you're using hex threaded bolt then print out the `lever big.stl` and `long nut.stl` instead. Then thread long nut into the end of the bolt, wrap some teflon tape around it and jam it into the `lever big.stl`.
 Might want to add nylock and a nut on where the bottom of the knob would go, but don't put on the knob itself yet, we will do it after mounting everything into the case.
 
-2. Mount potentiometer into the base. If your pot have a "tooth" on it then use soldering iron to melt down small hole into the base so that your pot can mount flat on the surface.
+2. Mount potentiometer into the base. If your pot have a "tooth" on it then use soldering iron to melt down small hole into the base to have it lay flat on the surface.
 Use a socket wrench to help tighten it in place
 
-3. Now for the shaft assembly, start by inserting the tension chuck, 2 nuts (one goes into the bottom the chuck, another just to position the bearing) and bearing into the threaded bolt
-    - Sanding tension chuck down to one grid is also recommended
+3. Print out the rest of the parts from original repo
+
+4. Now for the shaft assembly, start by inserting the tension chuck, 2 nuts (one goes into the bottom the chuck, another just to position the bearing) and bearing into the threaded bolt
+    - Sanding tension chuck down to 1000 grit is also recommended
 ![lever1](pic/lever/lever-assembly-1.jpg)
-4. Check that the chuck lines up with the clamp    
+5. Check that the chuck lines up with the clamp    
 ![lever2](pic/lever/lever-assembly-2.jpg)
 Add nylock and another nut
 ![lever3](pic/lever/lever-assembly-3.jpg)
@@ -62,12 +64,12 @@ The order right now should be:
 Start torquing everything into place.    
 Spur gear for the potentiometer should be added around this point. If your pot shaft is star-shaped then use ` Spur Gear (12 teeth) knurled.stl` from this repo instead.
 ![lever5](pic/lever/lever-assembly-5.jpg)
-5. Stop torquing when the lever stays on the exact center of the base. Tightens the nut at the back of the lever into it.    
+6. Stop torquing when the lever stays on the exact center of the base. Tightens the nut at the back of the lever into it.    
 It's highly recommended to cover the end of the shaft with a washer and a nylock too, to lock it in place and keep it from slipping off
-6. Add both clamps into the assembly. Again, you might want to sand the clamp surface down for smoother lever.
+7. Add both clamps into the assembly. Again, you might want to sand the clamp surface down for smoother lever.
 ### Abi
 Files are pinned in `#ongeki` channel in Cons&Stuff server    
-I did not use this lever design on my controller because the materials are too difficult to source, 
+I did not use this lever design on my controller because the parts are too difficult to source, 
 but I did upload my own f3d design for coil coupler so that it would fit in controller case, and you can mess 
 with the setting to have its diameter match your coil. 
 
@@ -84,8 +86,12 @@ with the setting to have its diameter match your coil.
 | WS2812b + something to mount the cables on                                           | 6   |
 
 ### Print settings
-- 10% infill, 1 infill line multiplier, 2 wall line count, 0.20 layer height for button face
+- 10% infill, 1 infill line multiplier, 2 wall line count, 0.20 layer height for button face (
+  - print it vertically using tree support
+  - make it as light as possible
+  - I haven't tried this yet but printing in clear PETG will give better light pass through and might give better feel
 - 12% infill, 1 infill line multiplier, 3 wall line count, 0.20 layer height for the rest
+  - might need to do spitting if you're using 200mm bed like ender3
 
 ### Assembly
 Wire up and mount everything as shown in picture below. If your sensor is not ITR9608 or has different dimension then you might want to model up a
@@ -112,6 +118,7 @@ You can also add some keyboard tape/thin foam on where the button would make con
 | Big rubber adhesive feet    | ~8  |
 ### Print settings
 - 12% infill, 1 infill line multiplier, 3 wall line count, 0.28 layer height
+  - support may be needed on some part
 
 ### Assembly
 1. Glue up each side parts with epoxy glue, don't forget to sand down with 80 grit sandpaper before applying glue to make the bond stronger. 
@@ -119,7 +126,7 @@ Get the bottom part laser cut with 2mm acrylic instead if you want to save sanit
 2. You should now have 7 big parts; top, wad(left), wad(right), side(north), side(south), bottom. 
 Everything except bottom part can be screwed together with self threading hole. Then mount cabinet magnet onto the bottom part.     
 3. Loosely mount side button and run cable down into the hole. Glue M5 nut on the WAD cover hole and mount it over side button. 
-Make sure the side button backplate doesn't get caught in between and start righting the screws    
+Make sure the side button backplate doesn't get caught in between and start tightening the screws    
 4. Mount lever assembly under the case then insert the knob. Use teflon tape to make the knob tight-fit and start smacking it into place 
 (hold the bottom of the lever while doing so, be careful damaging/breaking the top side!). 
 Make sure that the countersunk screws is flush with the surface to prepare for acrylic cover.
@@ -157,17 +164,18 @@ You can get around by sliding left/right to access side button screws to remove 
 
 ## Buttons and PCB
 ### Parts required
-| Part                      | Qty |
-|---------------------------|-----|
-| 60*60 mm square buttons\* | 6   |
-| 33*33 mm square buttons   | 2   |
-| WS2812b                   | 6   |
-| Arduino Pro Micro         | 1   |
-| 6 pin JST XH              | 8   |
-| 4 pin JST XH              | 4   |
-| 3 pin JST XH              | 1   |
-| 2 pin JST XH              | 2   |
-| M3x10mm screws            | 4   |
+| Part                         | Qty |
+|------------------------------|-----|
+| 60*60 mm square buttons\*    | 6   |
+| 33*33 mm square buttons      | 2   |
+| 4.8mm female spade connector | 16  |
+| WS2812b                      | 6   |
+| Arduino Pro Micro            | 1   |
+| 6 pin JST XH                 | 8   |
+| 4 pin JST XH                 | 4   |
+| 3 pin JST XH                 | 1   |
+| 2 pin JST XH                 | 2   |
+| M3x10mm screws               | 4   |
 - *if you're using Sanwa make sure lamp holder is the old style
 
 ### Assembly
@@ -189,7 +197,6 @@ For all of these code I suggest you include `ResponsiveAnalogRead` library to ge
 ```
 ...
 #include <ResponsiveAnalogRead.h>
-...
 ResponsiveAnalogRead analog({{LEVER_PIN}}, true);
 ...
 ```
